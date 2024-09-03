@@ -16,3 +16,8 @@
 - Setup environment;
 - How to train on MHD;
 - How to train on U-Net.
+
+## References
+
+- Add references (if needed);
+- Add acknowledgements (if need).
