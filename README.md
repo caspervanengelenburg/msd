@@ -44,7 +44,7 @@
      After training, use the `vis_unet.ipynb` Jupyter notebook to visualize the model's predictions. This notebook will load the trained model and compare the predicted floor plans with the ground truth.
 
 
-  4. **Test the U-Net Model**
+  4. **Test U-Net**
 
      To test the model on unseen data, run the `test_unet.py` script. This will evaluate the model on the test dataset and provide performance on IoU metric:
 
