@@ -33,6 +33,12 @@ Code and data are open.*
 The complete dataset can be downloaded from [Kaggle](https://www.kaggle.com/datasets/caspervanengelenburg/modified-swiss-dwellings). 
 More details on the dataset can be found there.
 
+**The graph as base data structure**</br>
+The floor plans come in various linked modalities: image, geometry, and graph. The **main data container is the graph** (`networkx.Graph()` or `torch_geometric.data.Data()`) on-top-of which the room shapes and types (as node-level attributes), the connectivity types (as edge-level attributes) and the full image (as graph-level attribute) are modelled. 
+While most floor plan datasets are not structured in this way, we believe that the graph captures most precisely the underlying spatial structure of the floor plan's layout. 
+Whatever element you need on top of the graph, you can add (by populating the nodes, edges, or by adding a graph attribute) yourself. 
+And if you don't need anything besides the topology of the floor plan, just use the bare graph: `networkx.Graph().nodes(data=False)` and `networkx.Graph().edges(data=False)`.
+
 **Structure**
 - [Data guidelines](msd_guidelines.ipynb): step-by-step notebook on how to use the data
 - [Plotting functions](plot.py): some functions that make it easier to make nice plots
