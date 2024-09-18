@@ -44,8 +44,17 @@ More details on the dataset can be found there.
 
 The code for the models will be released soon!
 
-- [ ] Include code for Graph-informed U-Net: in [this](unet) folder.
-- [ ] Include code for Modified HouseDiffusion: in [this](mhd) folder.
+- [ ] Include code for Graph-informed U-Net: will be in [this](unet) folder. Development branch [here](https://github.com/caspervanengelenburg/msd/tree/yt): 
+
+```bash
+git checkout yt
+```
+
+- [ ] Include code for Modified HouseDiffusion: will be in [this](mhd) folder. Development branch [here](https://github.com/caspervanengelenburg/msd/tree/wip-house-diffusion-msd): 
+
+```bash
+git checkout wip-house-diffusion-msd
+```
 
 ## Cite
 
