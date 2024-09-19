@@ -1,0 +1,9 @@
+torch-geometric
+networkx
+tqdm
+matplotlib
+opencv-python
+pycocotools
+onnxruntime 
+onnx
+ipykernel
