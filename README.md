@@ -40,10 +40,15 @@ Whatever element you need on top of the graph, you can add (by populating the no
 And if you don't need anything besides the topology of the floor plan, just use the bare graph: `networkx.Graph().nodes(data=False)` and `networkx.Graph().edges(data=False)`.
 
 **Structure**
-- [Data guidelines](NB - Usage Guidelines.ipynb): step-by-step notebook on how to use the data
-- [Plotting functions](plot.py): some functions that make it easier to make nice plots
-- [Constants](constants.py): contains lists and dictionaries of things like the color settings that we use
-- [Utilities](utils.py): some useful utility functions
+- Notebooks:
+  - [Data Curation 1 - Cleaning and Filtering](NB%20-%20Data%20Curation%201%20-%20Cleaning%20and%20Filtering.ipynb): Filtering and cleaning algorithms (from SD to MSD)
+  - [Data Curation 2 - Graph Extraction](NB%20-%20Data%20Curation%202%20-%20Graph%20Extraction.ipynb): Graph extraction algorithm. Note that running the extraction algorithm takes approximately an hour to complete.
+  - [Guidelines for Using MSD](NB%20-%20Usage%20Guidelines.ipynb): Step-by-step notebook on how to use the data. (Old plotting functions. New one for floor plan graphs: `plot.plot_floor(G, ax, node_size=50, edge_size=3)`)
+  - [ECCV Poster Visual](NB%20-%20Visuals%20for%20Poster%20ECCV.ipynb): Notebook with fragmented sections used for making the figures of the ECCV poster.
+- [Plotting functions](plot.py): Some functions that make it easier to make nice plots.
+- [Graphs and geometries](graphs.py): Graph extraction algorithm and some geometry helper functions.
+- [Constants](constants.py): Contains lists and dictionaries of things like the color settings that we use.
+- [Utilities](utils.py): Some useful utility functions.
 
 
 ## Floor plan generation
