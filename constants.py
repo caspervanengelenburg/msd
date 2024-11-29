@@ -35,29 +35,30 @@ ROOM_MAPPING = {
     'BALCONY': 'Balcony',  # ZONE 4
     'TERRACE': 'Balcony',  # ZONE 4
     'KITCHEN': 'Kitchen',  # ZONE 2
-    'DINING': 'Dining', # ZONE 2
-    'KITCHEN_DINING': 'Kitchen', # ZONE 2
-    'LIVING_ROOM': 'Livingroom', # ZONE 2
-    'LIVING_DINING': 'Livingroom', # ZONE 2
-    'BATHROOM': 'Bathroom', # ZONE 3
-    'CORRIDOR': 'Corridor', # ZONE 2
-    'CORRIDORS_AND_HALLS': 'Corridor', # ZONE 2
-    'STAIRS': 'Stairs', # ZONE 3
-    'STAIRCASE': 'Stairs', # ZONE 3
-    'ELEVATOR': 'Stairs', # ZONE 3
-    'RAILING': 'Balcony', # ZONE 4
-    'VOID': 'Stairs', # ZONE 3
-    'SHAFT': 'Structure', # Structure
-    'WALL': 'Structure', # Structure
-    'COLUMN': 'Structure', # Structure
-    'STOREROOM': 'Storeroom', # ZONE 3
-    'ENTRANCE_DOOR': 'Entrance Door', # Entrance Door
-    'DOOR': 'Door', # Door
-    'WINDOW': 'Window' # Window
+    'DINING': 'Dining',  # ZONE 2
+    'KITCHEN_DINING': 'Kitchen',  # ZONE 2
+    'LIVING_ROOM': 'Livingroom',  # ZONE 2
+    'LIVING_DINING': 'Livingroom',  # ZONE 2
+    'BATHROOM': 'Bathroom',  # ZONE 3
+    'CORRIDOR': 'Corridor',  # ZONE 2
+    'CORRIDORS_AND_HALLS': 'Corridor',  # ZONE 2
+    'STAIRS': 'Stairs',  # ZONE 3
+    'STAIRCASE': 'Stairs',  # ZONE 3
+    'ELEVATOR': 'Stairs',  # ZONE 3
+    'RAILING': 'Balcony',  # ZONE 4
+    'VOID': 'Stairs',  # ZONE 3
+    'SHAFT': 'Structure',  # Structure
+    'WALL': 'Structure',  # Structure
+    'COLUMN': 'Structure',  # Structure
+    'STOREROOM': 'Storeroom',  # ZONE 3
+    'ENTRANCE_DOOR': 'Entrance Door',  # Entrance Door
+    'DOOR': 'Door',  # Door
+    'WINDOW': 'Window'  # Window
 }
 
 ZONING_NAMES = ['Zone1', 'Zone2', 'Zone3', 'Zone4', 'Structure', 'Door', 'Entrance Door', 'Window']
-ROOM_NAMES = ['Bedroom', 'Livingroom', 'Kitchen', 'Dining', 'Corridor', 'Stairs', 'Storeroom', 'Bathroom', 'Balcony', 'Structure', 'Door', 'Entrance Door', 'Window']
+ROOM_NAMES = ['Bedroom', 'Livingroom', 'Kitchen', 'Dining', 'Corridor', 'Stairs', 'Storeroom', 'Bathroom', 'Balcony',
+              'Structure', 'Door', 'Entrance Door', 'Window']
 ZONING_ROOMS = {'Zone1': ['Bedroom'],
                 'Zone2': ['Livingroom', 'Kitchen', 'Dining', 'Corridor'],
                 'Zone3': ['Stairs', 'Storeroom', 'Bathroom'],
@@ -67,34 +68,32 @@ ZONING_ROOMS = {'Zone1': ['Bedroom'],
                 'Entrance Door': ['Entrance Door'],
                 'Window': ['Window']}
 
-
 ## COLORING
 COLORS_ZONING = ['#1f77b4',
-                  '#ff7f0e',
-                  '#72246c',
-                  '#2ca02c',
-                  '#000000',
-                  '#ffc000',
-                  '#98df8a',
-                  '#d62728']
+                 '#ff7f0e',
+                 '#72246c',
+                 '#2ca02c',
+                 '#000000',
+                 '#ffc000',
+                 '#98df8a',
+                 '#d62728']
 
 COLOR_MAP_ZONING = mcolors.ListedColormap(COLORS_ZONING)
 CMAP_ZONING = get_cmap(COLOR_MAP_ZONING)
 
-
 COLORS_ROOMTYPE = ['#1f77b4',
-                      '#e6550d',
-                      '#fd8d3c',
-                      '#fdae6b',
-                      '#fdd0a2',
-                      '#72246c',
-                      '#5254a3',
-                      '#6b6ecf',
-                      '#2ca02c',
-                      '#000000',
-                      '#ffc000',
-                      '#98df8a',
-                      '#d62728']
+                   '#e6550d',
+                   '#fd8d3c',
+                   '#fdae6b',
+                   '#fdd0a2',
+                   '#72246c',
+                   '#5254a3',
+                   '#6b6ecf',
+                   '#2ca02c',
+                   '#000000',
+                   '#ffc000',
+                   '#98df8a',
+                   '#d62728']
 
 COLOR_MAP_ROOMTYPE = mcolors.ListedColormap(COLORS_ROOMTYPE)
 CMAP_ROOMTYPE = get_cmap(COLOR_MAP_ROOMTYPE)

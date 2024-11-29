@@ -29,3 +29,22 @@ def colorize_floorplan(img, classes, cmap):
         img_c[img == cat, :] = (color).astype(int)
 
     return img_c
+
+
+def find_floor_boundary(polygons):
+    min_x, min_y, max_x, max_y = 100, 100, -100, -100
+
+    for polygon in polygons:
+
+        bounds = polygon.bounds
+
+        if min_x < bounds[0]:
+            min_x = bounds[0]
+        if min_y < bounds[1]:
+            min_y = bounds[1]
+        if max_x > bounds[2]:
+            max_x = bounds[2]
+        if max_y > bounds[3]:
+            max_y = bounds[3]
+
+    return min_x, min_y, max_x, max_y

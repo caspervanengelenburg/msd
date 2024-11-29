@@ -40,7 +40,7 @@ Whatever element you need on top of the graph, you can add (by populating the no
 And if you don't need anything besides the topology of the floor plan, just use the bare graph: `networkx.Graph().nodes(data=False)` and `networkx.Graph().edges(data=False)`.
 
 **Structure**
-- [Data guidelines](msd_guidelines.ipynb): step-by-step notebook on how to use the data
+- [Data guidelines](NB - Usage Guidelines.ipynb): step-by-step notebook on how to use the data
 - [Plotting functions](plot.py): some functions that make it easier to make nice plots
 - [Constants](constants.py): contains lists and dictionaries of things like the color settings that we use
 - [Utilities](utils.py): some useful utility functions
