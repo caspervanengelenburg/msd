@@ -44,7 +44,7 @@ And if you don't need anything besides the topology of the floor plan, just use 
   - [Data Curation 1 - Cleaning and Filtering](NB%20-%20Data%20Curation%201%20-%20Cleaning%20and%20Filtering.ipynb): Filtering and cleaning algorithms (from SD to MSD)
   - [Data Curation 2 - Graph Extraction](NB%20-%20Data%20Curation%202%20-%20Graph%20Extraction.ipynb): Graph extraction algorithm. Note that running the extraction algorithm takes approximately an hour to complete.
   - [Guidelines for Using MSD](NB%20-%20Usage%20Guidelines.ipynb): Step-by-step notebook on how to use the data. (Old plotting functions. New one for floor plan graphs: `plot.plot_floor(G, ax, node_size=50, edge_size=3)`)
-  - [ECCV Poster Visual](NB%20-%20Visuals%20for%20Poster%20ECCV.ipynb): Notebook with fragmented sections used for making the figures of the ECCV poster.
+  - [ECCV Poster Visual](NB%20-%20Visuals%20for%20Poster%20ECCV.ipynb): Notebook with fragmented sections used for making the figures of the ECCV poster. Find the [poster here](https://eccv.ecva.net/media/PosterPDFs/ECCV%202024/2064.png?t=1727793751.4434588). 
 - [Plotting functions](plot.py): Some functions that make it easier to make nice plots.
 - [Graphs and geometries](graphs.py): Graph extraction algorithm and some geometry helper functions.
 - [Constants](constants.py): Contains lists and dictionaries of things like the color settings that we use.
