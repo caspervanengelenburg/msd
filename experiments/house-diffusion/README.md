@@ -1,3 +1,3 @@
 # HouseDiffusion adapted for Modified Swiss Dwellings dataset
 
-TODO: merge readmes for preprocessing / running it?
+Pre-processing / Training / Evaluation are existed in each folder
